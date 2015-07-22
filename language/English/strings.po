@@ -77,7 +77,7 @@ msgid "Background Visuals"
 msgstr ""
 
 msgctxt "#31017"
-msgid "Lyrics/Subtitles"
+msgid "Lyrics"
 msgstr ""
 
 msgctxt "#31018"

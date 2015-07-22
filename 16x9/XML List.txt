@@ -1,5 +1,9 @@
 ---Added----------
 DialogMediaFilter.xml
+DialogSubtitles.xml
+DialogMediaFilter.xml
+---Added----------
+
 
 ---Removed-----
 DialogMusicScan.xml 

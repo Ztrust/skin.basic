@@ -64,7 +64,7 @@
 				</item>
 
 				<item id="2">
-					<description>Lyrics/Subtitles</description>
+					<description>Lyrics</description>
 					<label>31017</label>
 					<onclick>-</onclick>
 				</item>
@@ -135,14 +135,6 @@
 					<onclick>Skin.SetAddon(LyricPath,xbmc.python.lyrics)</onclick>
 				</control>
 
-				<control type="button" id="302">
-					<description>Default Button</description>
-					<width>1230</width>
-					<align>left</align>
-					<label>31026</label>
-					<onclick>Skin.SetAddon(SubtitlePath,xbmc.python.subtitles)</onclick>
-				</control>
-
 			</control>
 
 			<control type="grouplist" id="400">
@@ -171,22 +163,6 @@
 					<align>right</align>
 					<label>CU Lyrics</label>
 					<visible>IsEmpty(Skin.String(LyricPath))</visible>
-				</control>
-
-				<control type="label" id="403">
-					<description>Default Button</description>
-					<width>1200</width>
-					<align>right</align>
-					<label>$INFO[Skin.String(SubtitlesPath)]</label>
-					<visible>!IsEmpty(Skin.String(SubtitlesPath))</visible>
-				</control>
-
-				<control type="label" id="404">
-					<description>Default Button</description>
-					<width>1200</width>
-					<align>right</align>
-					<label>XBMC Subtitles</label>
-					<visible>IsEmpty(Skin.String(SubtitlesPath))</visible>
 				</control>
 
 			</control>
