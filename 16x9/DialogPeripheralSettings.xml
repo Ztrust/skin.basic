@@ -30,15 +30,6 @@
 			<label>5</label>
 		</control>
 
-		<control type="label" id="3">
-			<description>No Settings Label</description>
-			<left>15</left>
-			<top>270</top>
-			<width>990</width>
-			<align>center</align>
-			<label>35004</label>
-			<font>Medium</font>
-		</control>
 		
 		<control type="grouplist" id="5">
 			<description>control area</description>
@@ -69,7 +60,7 @@
 			<reverse>yes</reverse>
 		</control>
 
-		<control type="sliderex" id="10">
+		<control type="sliderex" id="13">
 			<description>Default Slider</description>
 			<width>990</width>
 			<align>left</align>
