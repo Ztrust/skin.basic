@@ -1,3 +1,7 @@
+----INFO-----
+I have skipped DialogNetworkSetup.xml needs fixing
+----INFO-----
+
 ---Added----------
 DialogMediaFilter.xml
 DialogSubtitles.xml

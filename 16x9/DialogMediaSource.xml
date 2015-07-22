@@ -111,13 +111,25 @@
 				<label>1022</label>
 			</control>
 
-			<control type="button" id="12">
+			<control type="edit" id="12">
 				<description>Name</description>
 				<left>15</left>
 				<top>672</top>
 				<label>-</label>
 				<width>990</width>
 				<align>left</align>
+                <height>66</height>
+				<font>Small</font>
+				<align>left</align>
+				<aligny>center</aligny>
+				<textcolor>White</textcolor>
+				<focusedcolor>White</focusedcolor>
+				<selectedcolor>White</selectedcolor>
+				<label>-</label>
+				<textoffsetx>30</textoffsetx>
+				<texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus>
+				<texturefocus border="5">other_textures/ButtonFO.png</texturefocus>
+				<pulseonselect>false</pulseonselect>
 				<textoffsetx>30</textoffsetx>
 				<onup>10</onup>
 				<onleft>12</onleft>

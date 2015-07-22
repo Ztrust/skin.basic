@@ -42,7 +42,7 @@
 				<onright>10</onright>
 			</control>
 
-			<control type="button" id="11">
+			<control type="edit" id="11">
 				<description>Server Address</description>
 				<left>15</left>
 				<top>159</top>
@@ -50,6 +50,18 @@
 				<align>left</align>
 				<label>-</label>
 				<textoffsetx>30</textoffsetx>
+                <height>66</height>
+				<font>Small</font>
+				<align>left</align>
+				<aligny>center</aligny>
+				<textcolor>White</textcolor>
+				<focusedcolor>White</focusedcolor>
+				<selectedcolor>White</selectedcolor>
+				<label>-</label>
+				<textoffsetx>30</textoffsetx>
+				<texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus>
+				<texturefocus border="5">other_textures/ButtonFO.png</texturefocus>
+				<pulseonselect>false</pulseonselect>
 				<onup>10</onup>
 				<onleft>12</onleft>
 				<onright>12</onright>
@@ -80,7 +92,7 @@
 				<ondown>13</ondown>
 			</control>
 
-			<control type="button" id="13">
+			<control type="edit" id="13">
 				<description>Port</description>
 				<left>15</left>
 				<top>297</top>

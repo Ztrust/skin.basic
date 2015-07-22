@@ -47,13 +47,25 @@
 				<texture border="20">other_textures/KeyboardEditArea.png</texture>
 			</control>
 
-			<control type="label" id="310">
+			<control type="edit" id="312">
 				<description>Edit Text</description>
 				<left>53</left>
 				<top>75</top>
 				<width>975</width>
 				<height>75</height>
 				<align>center</align>
+                
+                <font>Small</font>
+				<align>left</align>
+				<aligny>center</aligny>
+				<textcolor>White</textcolor>
+				<focusedcolor>White</focusedcolor>
+				<selectedcolor>White</selectedcolor>
+				<label>-</label>
+				<textoffsetx>30</textoffsetx>
+				<texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus>
+				<texturefocus border="5">other_textures/ButtonFO.png</texturefocus>
+				<pulseonselect>false</pulseonselect>
 			</control>
 
 			<control type="group">
