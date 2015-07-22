@@ -41,6 +41,15 @@
 				<align>left</align>
 				<label>20186</label>
 			</control>
+            
+            <control type="progress" id="10">
+				<description>Progressbar</description>
+				<left>20</left>
+				<top>65</top>
+				<width>160</width>
+				<height>10</height>
+				<!-- <info>System.Progressbar</info> -->
+			</control>
 
 		</control>
 
