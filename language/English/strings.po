@@ -1,0 +1,257 @@
+# Kodi Media Center language file
+# Addon Name: Weadon
+# Addon id: skin.weadon
+msgid ""
+msgstr ""
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#Misc labels
+
+msgctxt "#31000"
+msgid "Finishes at"
+msgstr ""
+
+msgctxt "#31001"
+msgid "Files Mode"
+msgstr ""
+
+msgctxt "#31002"
+msgid "Programs"
+msgstr ""
+
+msgctxt "#31003"
+msgid "Videos"
+msgstr ""
+
+msgctxt "#31004"
+msgid "Music"
+msgstr ""
+
+msgctxt "#31005"
+msgid "Pictures"
+msgstr ""
+
+msgctxt "#31006"
+msgid "Movies"
+msgstr ""
+
+msgctxt "#31007"
+msgid "Tv Shows"
+msgstr ""
+
+msgctxt "#31008"
+msgid "Favourites"
+msgstr ""
+
+msgctxt "#31009"
+msgid "Profiles"
+msgstr ""
+
+msgctxt "#31010"
+msgid "Weather"
+msgstr ""
+
+msgctxt "#31011"
+msgid "File Manager"
+msgstr ""
+
+msgctxt "#31012"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#31013"
+msgid "Shutdown"
+msgstr ""
+
+msgctxt "#31014"
+msgid "Play Disc"
+msgstr ""
+
+msgctxt "#31015"
+msgid "PLAYER Controls"
+msgstr ""
+
+msgctxt "#31016"
+msgid "Background Visuals"
+msgstr ""
+
+msgctxt "#31017"
+msgid "Lyrics/Subtitles"
+msgstr ""
+
+msgctxt "#31018"
+msgid "Current Selected"
+msgstr ""
+
+msgctxt "#31019"
+msgid "Open playlist"
+msgstr ""
+
+msgctxt "#31020"
+msgid "Save playlist"
+msgstr ""
+
+msgctxt "#31021"
+msgid "Close playlist"
+msgstr ""
+
+msgctxt "#31022"
+msgid "System music files"
+msgstr ""
+
+msgctxt "#31023"
+msgid "Disable Background Visualiser"
+msgstr ""
+
+msgctxt "#31024"
+msgid "Disable Background Video"
+msgstr ""
+
+msgctxt "#31025"
+msgid "Click to change default Lyrics script"
+msgstr ""
+
+msgctxt "#31026"
+msgid "Click to change default Subtitles script"
+msgstr ""
+
+msgctxt "#31027"
+msgid "Items"
+msgstr ""
+
+msgctxt "#31028"
+msgid "Page"
+msgstr ""
+
+msgctxt "#31029"
+msgid "Current playlist"
+msgstr ""
+
+msgctxt "#31030"
+msgid "Memory Used"
+msgstr ""
+
+msgctxt "#31031
+msgid "Karaoke Song Selector"
+msgstr ""
+
+msgctxt "#31032"
+msgid "Visualization Presets"
+msgstr ""
+
+msgctxt "#31033"
+msgid "Debug"
+msgstr ""
+
+msgctxt "#31034"
+msgid "Enable Debug Grid"
+msgstr ""
+
+msgctxt "#31035"
+msgid "Disable Debug Info"
+msgstr ""
+
+msgctxt "#31036"
+msgid "Rewind"
+msgstr ""
+
+msgctxt "#31037"
+msgid "Pause"
+msgstr ""
+
+msgctxt "#31038"
+msgid "Stop"
+msgstr ""
+
+msgctxt "#31039"
+msgid "Fast Forward"
+msgstr ""
+
+msgctxt "#31040"
+msgid "Visualisation Presets"
+msgstr ""
+
+msgctxt "#31041"
+msgid "DVD Menu"
+msgstr ""
+
+
+#. sidebar label
+msgctxt "#31042"
+msgid "View Options"
+msgstr ""
+
+msgctxt "#31043"
+msgid "Sort: Ascending"
+msgstr ""
+
+msgctxt "#31044"
+msgid "Sort: Descending"
+msgstr ""
+
+#. sidebarlabel
+msgctxt "#31045"
+msgid "Hide Information"
+msgstr ""
+
+#. sidebarlabel
+msgctxt "#31046"
+msgid "Misc Options"
+msgstr ""
+
+#. sidebarlabel
+msgctxt "#31047"
+msgid "Actions"
+msgstr ""
+
+#. Empty
+msgctxt "#31048"
+msgid ""
+msgstr ""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#. Font Title
+msgctxt "#31390"
+msgid "Default"
+msgstr ""
+
+
+
+#. Font Title
+msgctxt "#31391"
+msgid "Roboto"
+msgstr ""
+
+
+  

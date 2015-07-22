@@ -3,8 +3,6 @@
 <includes>
 
 	<default type="label">
-		<posx>0</posx>
-		<posy>0</posy>
 		<label>-</label>
 		<height>66</height>
 		<align>left</align>
@@ -17,8 +15,6 @@
 	</default>
 
 	<default type="fadelabel">
-		<posx>0</posx>
-		<posy>0</posy>
 		<height>66</height>
 		<label>-</label>
 		<align>left</align>
@@ -43,8 +39,6 @@
 	</default>
 
 	<default type="button">
-		<posx>0</posx>
-		<posy>0</posy>
 		<width>450</width>
 		<height>66</height>
 		<align>center</align>
@@ -61,8 +55,6 @@
 	</default>
 
 	<default type="togglebutton">
-		<posx>0</posx>
-		<posy>0</posy>
 		<width>450</width>
 		<height>66</height>
 		<label>-</label>
@@ -81,8 +73,6 @@
 	</default>
 
 	<default type="radiobutton">
-		<posx>0</posx>
-		<posy>0</posy>
 		<width>450</width>
 		<height>66</height>
 		<align>center</align>
@@ -103,8 +93,6 @@
 	</default>
 
 	<default type="spincontrolex">
-		<posx>0</posx>
-		<posy>0</posy>
 		<width>450</width>
 		<height>66</height>
 		<label>-</label>
@@ -128,8 +116,6 @@
 	</default>
 
 	<default type="spincontrol">
-		<posx>0</posx>
-		<posy>0</posy>
 		<height>23</height>
 		<width>23</width>
 		<spinwidth>39</spinwidth>
@@ -150,8 +136,6 @@
 	</default>
 
 	<default type="sliderex">
-		<posx>0</posx>
-		<posy>0</posy>
 		<height>66</height>
 		<width>450</width>
 		<texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus>
@@ -180,8 +164,6 @@
 	</default>
 
 	<default type="slider">
-		<posx>0</posx>
-		<posy>0</posy>
 		<width>360</width>
 		<height>23</height>
 		<texturefocus>-</texturefocus>
@@ -208,7 +190,7 @@
 		<textcolor>white</textcolor>
 		<shadowcolor>black</shadowcolor>
 		<pagecontrol>61</pagecontrol>
-		<autoscroll delay="6000" time="3000" repeat="10000"/>
+		<!-- <autoscroll delay="6000" time="3000" repeat="10000"/> -->
 	</default>
 
 </includes>
