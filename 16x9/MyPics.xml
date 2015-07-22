@@ -11,8 +11,10 @@
 
 		<include>View_50_List</include>
 
+		  <control type="group">
+    <left>-330</left>
 		<control type="grouplist" id="9000">
-			<left>15</left>
+			<left>0</left>
 			<top>210</top>
 			<width>330</width>
 			<height>900</height>
@@ -22,10 +24,14 @@
 			<onup>9000</onup>
 			<ondown>9000</ondown>
 			<orientation>vertical</orientation>
-			<animation type="Conditional" condition="!ControlGroup(9000).HasFocus()">
-				<effect type="fade" start="100" end="50" time="200" />
-				<effect type="zoom" center="0,450" start="100" end="80" time="200" />
-			</animation>
+			     <animation type="Conditional" condition="!ControlGroup(9000).HasFocus()">
+                <effect type="fade" start="100" end="50" time="200" />
+                <effect type="zoom" center="0,450" start="100" end="80" time="200" />            
+            </animation>
+        <animation effect="slide" start="0,0" end="330,0" time="300" tween="quadratic" easing="out" condition="ControlGroup(9000).HasFocus | Control.HasFocus(9001) | Control.HasFocus(8999)">Conditional</animation>
+		<animation effect="slide" start="0,0" end="-330,0" time="300" tween="quadratic" easing="out" condition="ControlGroup(9000).HasFocus | Control.HasFocus(9001)">WindowClose</animation>
+		<animation effect="slide" start="0,0" end="-50,0" time="225" tween="quadratic" easing="out" condition="![ControlGroup(9000).HasFocus | Control.HasFocus(9001)]">WindowClose</animation>
+		<animation effect="slide" start="-50,0" end="0,0" time="225" tween="quadratic" easing="out">WindowOpen</animation>
 
 			<control type="button" id="2">
 				<description>View</description>
@@ -79,7 +85,8 @@
 				<visible>Player.HasMedia</visible>
 			</control>
 
-		</control>
+		</control>	
+        </control>
 
 	</controls>
 
