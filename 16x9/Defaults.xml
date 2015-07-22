@@ -88,6 +88,10 @@
 		<texturefocus border="5">other_textures/ButtonFo.png</texturefocus>
 		<textureradiofocus>other_textures/RadiobuttonFo.png</textureradiofocus>
 		<textureradionofocus>other_textures/RadiobuttonNF.png</textureradionofocus>
+<!--         <textureradioonfocus>radiobutton-on-focus.png</textureradioonfocus>
+        <textureradioonnofocus>radiobutton-on-nofocus.png</textureradioonnofocus>
+        <textureradioofffocus>radiobutton-off-focus.png</textureradioofffocus>
+        <textureradiooffnofocus>radiobutton-off-nofocus.png</textureradiooffnofocus> -->
 		<textoffsetx>30</textoffsetx>
 		<pulseonselect>false</pulseonselect>
 	</default>
