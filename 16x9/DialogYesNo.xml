@@ -30,32 +30,17 @@
 				<align>center</align>
 			</control>
 
-			<control type="label" id="2">
-				<description>Line 1</description>
-				<left>15</left>
-				<top>108</top>
-				<label>-</label>
-				<width>885</width>
-				<scroll>true</scroll>
-			</control>
-
-			<control type="label" id="3">
-				<description>Line 2</description>
-				<left>15</left>
-				<top>156</top>
-				<label>-</label>
-				<width>885</width>
-				<scroll>true</scroll>
-			</control>
-
-			<control type="label" id="4">
-				<description>Line 3</description>
-				<left>15</left>
-				<top>204</top>
-				<label>-</label>
-				<width>885</width>
-				<scroll>true</scroll>
-			</control>
+		<control type="textbox" id="9">
+			<description>text</description>
+			<left>60</left>
+			<top>90</top>
+			<width>550</width>
+			<height>80</height>
+			<align>left</align>
+			<label>-</label>
+			<font>Small</font>
+			<autoscroll time="3000" delay="4000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
+		</control>
 
 			<control type="button" id="10">
 				<description>No</description>
