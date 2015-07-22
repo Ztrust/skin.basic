@@ -123,7 +123,8 @@
                 <onclick>SetFocus(21)</onclick>
                 <visible>!IsEmpty(Window.Property(filter))</visible>
             </control>
-				<control type="togglebutton" id="20">
+
+            <control type="togglebutton" id="20">
                 <description>Update library</description>
                 <width>330</width>
                 <align>left</align>

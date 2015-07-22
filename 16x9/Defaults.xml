@@ -46,6 +46,7 @@
 		<font>Small</font>
 		<label>-</label>
 		<textoffsetx>30</textoffsetx>
+        <invalidcolor>invalid</invalidcolor>
 		<textcolor>White</textcolor>
 		<focusedcolor>White</focusedcolor>
 		<disabledcolor>Red</disabledcolor>
