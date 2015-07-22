@@ -4,7 +4,7 @@
 
 	<default type="label">
 		<label>-</label>
-		<height>66</height>
+		<height>60</height>
 		<align>left</align>
 		<aligny>center</aligny>
 		<font>Small</font>
