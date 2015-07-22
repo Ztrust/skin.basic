@@ -1,6 +1,11 @@
+---Added----------
+DialogMediaFilter.xml
+
+
+
+
 AddonBrowser.xml
 Custom_Debug_Overlay.xml
-CustomSettings.xml
 Defaults.xml
 DialogAddonInfo.xml
 DialogAddonSettings.xml
