@@ -2,6 +2,27 @@
 <!-- Foundation -->
 <includes>
 
+
+	<!-- ============= -->
+	<!--      Mine     -->
+	<!-- ============= -->
+    
+        <include name="KeyboardButton">
+        <width>80</width>
+        <height>80</height>
+        <texturenofocus border="3">KeyboardKeyNF.png</texturenofocus>
+        <texturefocus border="5">KeyboardKey.png</texturefocus>
+        <align>center</align>
+        <aligny>center</aligny>
+        <font>Small</font>
+        <focusedcolor>White</focusedcolor>
+    </include>
+    
+	<!-- ============= -->
+	<!--      Mine     -->
+	<!-- ============= -->    
+
+
 	<include file="Defaults.xml" />
 	<include file="CommonViews.xml" />
 	<include file="View_50_List.xml" />
