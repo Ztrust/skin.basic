@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Foundation -->
 <window id="132">
-	<defaultcontrol always="true">3</defaultcontrol>
+	<defaultcontrol always="true">20</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
 
 	<controls>
@@ -20,7 +20,7 @@
 				<texture border="22">other_textures/ContentPanel.png</texture>
 			</control>
 
-			<control type="label" id="20">
+			<control type="label" id="2">
 				<description>Header Label</description>
 				<left>15</left>
 				<align>center</align>
@@ -40,7 +40,7 @@
 				<bordersize>8</bordersize>
 			</control>
 
-			<control type="spincontrolex" id="3">
+			<control type="spincontrolex" id="20">
 				<description>Directory Content</description>
 				<left>435</left>
 				<top>68</top>
@@ -68,18 +68,18 @@
 				<top>68</top>
 				<width>458</width>
 				<align>right</align>
-				<label>$INFO[Control.GetLabel(3)]</label>
+				<label>$INFO[Control.GetLabel(20)]</label>
 			</control>
 
-			<control type="list" id="4">
+			<control type="list" id="21">
 				<left>435</left>
 				<top>158</top>
 				<width>870</width>
 				<height>278</height>
-				<onup>3</onup>
+				<onup>20</onup>
 				<onleft>5</onleft>
 				<onright>3</onright>
-				<ondown>5</ondown>
+				<ondown>20</ondown>
 				<itemlayout height="69">
 
 					<control type="image">
@@ -122,9 +122,9 @@
 				<width>1290</width>
 				<height>276</height>
 				<itemgap>3</itemgap>
-				<onup>4</onup>
+				<onup>21</onup>
 				<ondown>29</ondown>
-				<onleft>4</onleft>
+				<onleft>21</onleft>
 				<onright>29</onright>
 				<orientation>vertical</orientation>
 			</control>
@@ -172,7 +172,7 @@
 				<onleft>28</onleft>
 				<onright>6</onright>
 				<onup>5</onup>
-				<ondown>3</ondown>
+				<ondown>20</ondown>
 			</control>
 
 		</control>
