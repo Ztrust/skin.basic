@@ -40,7 +40,7 @@
 
 	<default type="button">
 		<width>450</width>
-		<height>66</height>
+		<height>60</height>
 		<align>center</align>
 		<aligny>center</aligny>
 		<font>Small</font>
@@ -50,20 +50,20 @@
 		<focusedcolor>White</focusedcolor>
 		<disabledcolor>Red</disabledcolor>
 		<texturefocus border="5">other_textures/ButtonFo.png</texturefocus>
-		<texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus>
+		<!-- <texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus> -->
 		<pulseonselect>false</pulseonselect>
 	</default>
 
 	<default type="togglebutton">
 		<width>450</width>
-		<height>66</height>
+		<height>60</height>
 		<label>-</label>
 		<textoffsetx>30</textoffsetx>
 		<font>Small</font>
 		<textcolor>White</textcolor>
 		<focusedcolor>White</focusedcolor>
 		<disabledcolor>Red</disabledcolor>
-		<texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus>
+		<!-- <texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus> -->
 		<texturefocus border="5">other_textures/ButtonFo.png</texturefocus>
 		<alttexturenofocus border="2">other_textures/ButtonNF.png</alttexturenofocus>
 		<alttexturefocus border="5">other_textures/ButtonFo.png</alttexturefocus>
@@ -74,7 +74,7 @@
 
 	<default type="radiobutton">
 		<width>450</width>
-		<height>66</height>
+		<height>60</height>
 		<align>center</align>
 		<aligny>center</aligny>
 		<font>Small</font>
@@ -84,14 +84,15 @@
 		<disabledcolor>Red</disabledcolor>
 		<radiowidth>45</radiowidth>
 		<radioheight>45</radioheight>
-		<texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus>
+		<!-- <texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus> -->
 		<texturefocus border="5">other_textures/ButtonFo.png</texturefocus>
 		<textureradiofocus>other_textures/RadiobuttonFo.png</textureradiofocus>
 		<textureradionofocus>other_textures/RadiobuttonNF.png</textureradionofocus>
 		<textoffsetx>30</textoffsetx>
 		<pulseonselect>false</pulseonselect>
 	</default>
-
+     
+     <!-- Multi Select button -->
 	<default type="spincontrolex">
 		<width>450</width>
 		<height>66</height>
@@ -99,7 +100,7 @@
 		<font>Small</font>
 		<spinwidth>39</spinwidth>
 		<spinheight>39</spinheight>
-		<texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus>
+		<!-- <texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus> -->
 		<texturefocus border="5">other_textures/ButtonFo.png</texturefocus>
 		<textureup>other_textures/ArrowUpNF.png</textureup>
 		<texturedown>other_textures/ArrowDownNF.png</texturedown>

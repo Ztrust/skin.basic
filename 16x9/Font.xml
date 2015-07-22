@@ -25,6 +25,12 @@
 			<name>Text</name>
 			<filename>Comfortaa-Light.ttf</filename>
 			<size>24</size>
+		</font>   
+
+		<font>
+			<name>Small</name>
+			<filename>Comfortaa-Light.ttf</filename>
+			<size>30</size>
 		</font>        
         
 		<font>
@@ -39,11 +45,11 @@
 			<size>39</size>
 		</font> -->
 		
-		<font>
+<!-- 		<font>
 			<name>Small</name>
 			<filename>Arial.ttf</filename>
 			<size>30</size>
-		</font>
+		</font> -->
 
 		<!-- Required for system -->
 		<font>

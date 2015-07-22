@@ -1,62 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Foundation -->
 <window id="12">
-	<defaultcontrol always="true">3</defaultcontrol>
-	<allowoverlay>yes</allowoverlay>
+    <defaultcontrol always="true">3</defaultcontrol>
+    <allowoverlay>yes</allowoverlay>
 
-	<controls>
+    <controls>
 
-		<include>GlobalBackground</include>
+        <include>GlobalBackground</include>
 
-		<control type="grouplist" id="3">
-			<description>Button Area</description>
-			<left>15</left>
-			<top>210</top>
-			<width>450</width>
-			<height>720</height>
-			<itemgap>3</itemgap>
-			<onleft>5</onleft>
-			<onright>5</onright>
-			<onup>3</onup>
-			<ondown>3</ondown>
-			<orientation>vertical</orientation>
-		</control>
+        <control type="grouplist" id="3">
+            <description>Button Area</description>
+            <left>15</left>
+            <top>210</top>
+            <width>450</width>
+            <height>720</height>
+            <itemgap>3</itemgap>
+            <onleft>5</onleft>
+            <onright>5</onright>
+            <onup>3</onup>
+            <ondown>3</ondown>
+            <orientation>vertical</orientation>
+        </control>
 
-		<control type="grouplist" id="5">
-			<description>Control Area</description>
-			<left>510</left>
-			<top>210</top>
-			<width>1230</width>
-			<height>720</height>
-			<itemgap>3</itemgap>
-			<onleft>3</onleft>
-			<onright>3</onright>
-			<onup>5</onup>
-			<ondown>5</ondown>
-			<orientation>vertical</orientation>
-		</control>
+        <control type="grouplist" id="5">
+            <description>Control Area</description>
+            <left>510</left>
+            <top>210</top>
+            <width>1230</width>
+            <height>580</height>
+            <itemgap>3</itemgap>
+            <onleft>3</onleft>
+            <onright>3</onright>
+            <onup>5</onup>
+            <ondown>5</ondown>
+            <orientation>vertical</orientation>
+        </control>
 
-		<control type="button" id="7">
-			<description>Default Button</description>
-			<align>left</align>
-		</control>
+        <control type="button" id="7">
+            <description>Default Button</description>
+            <align>left</align>
+        </control>
 
-		<control type="radiobutton" id="8">
-			<description>Default Radio Button</description>
-			<radioposx>1155</radioposx>
-			<align>left</align>
-		</control>
+        <control type="radiobutton" id="8">
+            <description>Default Radio Button</description>
+            <radioposx>1155</radioposx>
+            <align>left</align>
+        </control>
 
-		<control type="spincontrolex" id="9">
-			<description>Default Spin Control</description>
-			<align>left</align>
-		</control>
+        <control type="spincontrolex" id="9">
+            <description>Default Spin Control</description>
+            <align>left</align>
+        </control>
 
-		<control type="button" id="10">
-			<description>Default Category Button</description>
-			<align>left</align>
-		</control>
+        <control type="button" id="10">
+            <description>Default Category Button</description>
+            <align>left</align>
+        </control>
 
-	</controls>
+        <!-- Description and headers -->
+
+        <!-- Settings Header -->        
+        <control type="label" id="2">
+            <description>Settings Header</description>
+            <left>0</left>
+            <top>50</top>
+            <height>60</height>
+            <width>1920</width>		
+            <font>Home</font>
+            <align>center</align>
+            <label>-</label>
+        </control>	
+
+        <!-- SubHeader Change to id="14" -->        
+        <control type="label">
+            <description>Settings Header</description>
+            <left>0</left>
+            <top>100</top>
+            <height>60</height>
+            <width>1920</width>		
+            <font>Text</font>
+            <align>center</align>
+            <label>5</label>
+        </control>	  
+
+        <!-- Category Settings description -->
+        <control type="textbox" id="6">
+            <description>Category Description</description>
+            <left>530</left>
+            <top>860</top>
+            <width>1180</width>
+            <height>200</height>
+            <font>Text</font>
+            <align>left</align>
+            <textcolor>white</textcolor>
+            <shadowcolor>Grey</shadowcolor>
+        </control>      
+
+    </controls>
 
 </window>
