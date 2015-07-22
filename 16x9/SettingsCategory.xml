@@ -18,7 +18,7 @@
             <onleft>5</onleft>
             <onright>5</onright>
             <onup>3</onup>
-            <ondown>3</ondown>
+            <ondown>20</ondown>
             <orientation>vertical</orientation>
         </control>
 
@@ -56,6 +56,25 @@
             <description>Default Category Button</description>
             <align>left</align>
         </control>
+        <control type="button" id="20">
+            <description>Setting level button</description>
+            <textwidth>235</textwidth>
+            <top>1000</top>
+            <left>0</left>
+            <label>10037</label>
+            <onup>3</onup>
+            <ondown>3</ondown>
+            <onclick>SettingsLevelChange</onclick>
+        </control>
+
+           <!-- Find out what it does -->
+        <!-- <control type="button" id="21">
+            <description>Reset button</description>
+            <top>1000</top>
+            <left>600</left>
+            <label>10035</label>
+            <onclick>SettingsReset</onclick>
+        </control> -->
 
         <!-- Description and headers -->
 

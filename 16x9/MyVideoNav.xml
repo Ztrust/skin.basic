@@ -57,21 +57,13 @@
                 <altlabel>585</altlabel>
             </control>
 
-            <control type="button" id="5">
+<!--             <control type="button" id="5">
                 <description>Files</description>
                 <width>330</width>
                 <align>left</align>
                 <label>31001</label>
                 <onclick>SetFocus(50)</onclick>
-            </control>
-
-            <control type="radiobutton" id="7">
-                <description>Stack</description>
-                <width>330</width>
-                <align>left</align>
-                <label>14000</label>
-                <altlabel>14001</altlabel>
-            </control>
+            </control> -->
 
             <control type="button" id="8">
                 <description>Search</description>
@@ -90,19 +82,12 @@
                 <visible>system.haslocks</visible>
             </control>
 
-            <control type="radiobutton" id="16">
+<!--             <control type="radiobutton" id="16">
                 <description>PartyMode</description>
                 <width>330</width>
                 <align>left</align>
                 <label>589</label>
-            </control>
-
-            <control type="radiobutton" id="17">
-                <description>Flatten</description>
-                <width>330</width>
-                <align>left</align>
-                <label>20411</label>
-            </control>
+            </control> -->
 
             <control type="button" id="21">
                 <description>Activate Filter</description>
