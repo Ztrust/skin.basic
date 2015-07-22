@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Foundation -->
+<!-- Basic/Foundation -->
 <window id="4">
 	<defaultcontrol always="true">9000</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
@@ -130,7 +130,20 @@
 
 			</content>
 		</control>
+
+<!-- Settings Header -->        
+        <control type="label">
+			<description>Settings Header</description>
+			<left>0</left>
+			<top>50</top>
+			<height>60</height>
+			<width>1920</width>		
+			<font>Home</font>
+            <align>center</align>
+			<label>5</label>
+		</control>	
         	
+            <!-- Category Settings description from label 2 - customs strings entry -->
             <control type="textbox">
 				<description>Appearance Description</description>
 				<left>1000</left>
