@@ -20,7 +20,7 @@
 				<texture border="22">other_textures/ContentPanel.png</texture>
 			</control>
 
-			<control type="label">
+<!-- 			<control type="label">
 				<description>Header Label</description>
 				<left>15</left>
 				<width>1290</width>
@@ -28,7 +28,7 @@
 				<font>Medium</font>
 				<shadowcolor>black</shadowcolor>
 				<align>center</align>
-			</control>
+			</control> -->
 
 			<control type="image" id="3">
 				<description>Cover Image</description>

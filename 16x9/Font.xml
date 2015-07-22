@@ -1,62 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Foundation -->
+<!-- Basic/Foundation -->
 <fonts>
-	<fontset id="default" unicode="true">
 
-<!-- 		<font>
-			<name>Home</name>
-			<filename>Arial.ttf</filename>
-			<size>96</size>
-		</font> -->
-		
-		<font>
-			<name>Home</name>
-			<filename>Comfortaa-Bold.ttf</filename>
-			<size>38</size>
-		</font>    
+    <fontset id="default" unicode="true">
 
-		<font>
-			<name>Medium</name>
-			<filename>Comfortaa-Light.ttf</filename>
-			<size>38</size>
-		</font>  
+        <font>
+            <name>Home</name>
+            <filename>Comfortaa-Bold.ttf</filename>
+            <size>38</size>
+        </font>    
 
-		<font>
-			<name>Text</name>
-			<filename>Comfortaa-Light.ttf</filename>
-			<size>24</size>
-		</font>   
+        <font>
+            <name>Large</name>
+            <filename>Comfortaa-Bold.ttf</filename>
+            <size>48</size>
+        </font>
 
-		<font>
-			<name>Small</name>
-			<filename>Comfortaa-Light.ttf</filename>
-			<size>30</size>
-		</font>        
-        
-		<font>
-			<name>Large</name>
-			<filename>Arial.ttf</filename>
-			<size>48</size>
-		</font>
-		
-<!-- 		<font>
-			<name>Medium</name>
-			<filename>Arial.ttf</filename>
-			<size>39</size>
-		</font> -->
-		
-<!-- 		<font>
-			<name>Small</name>
-			<filename>Arial.ttf</filename>
-			<size>30</size>
-		</font> -->
+        <font>
+            <name>Medium</name>
+            <filename>Comfortaa-Light.ttf</filename>
+            <size>38</size>
+        </font>  
 
-		<!-- Required for system -->
-		<font>
-			<name>font13</name>
-			<filename>Arial.ttf</filename>
-			<size>30</size>
-		</font>
+        <font>
+            <name>Small</name>
+            <filename>Comfortaa-Light.ttf</filename>
+            <size>28</size>
+        </font>   
+        <font>
+            <name>Text</name>
+            <filename>Comfortaa-Light.ttf</filename>
+            <size>24</size>
+        </font>   
 
-	</fontset>
+        <!-- Required for system -->
+
+        <font>
+            <name>font13</name>
+            <filename>Arial.ttf</filename>
+            <size>30</size>
+        </font>
+
+    </fontset>
+
 </fonts>
