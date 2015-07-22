@@ -53,10 +53,8 @@
 				<top>75</top>
 				<width>975</width>
 				<height>75</height>
-				<align>center</align>
-                
+				<align>center</align>             
                 <font>Small</font>
-				<align>left</align>
 				<aligny>center</aligny>
 				<textcolor>White</textcolor>
 				<focusedcolor>White</focusedcolor>
