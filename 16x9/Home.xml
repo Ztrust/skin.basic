@@ -10,8 +10,8 @@
 
 		<control type="wraplist" id="9000">
 			<description>Home Wraplist</description>
-			<posx>205</posx>
-			<posy>170</posy>
+			<left>205</left>
+			<top>170</top>
 			<width>1510</width>
 			<height>60</height>
 			<onup>9000</onup>
@@ -26,7 +26,7 @@
 			<itemlayout width="300" height="60">
 
 				<control type="label">
-					<posx>0</posx>
+					<left>0</left>
 					<height>60</height>
 					<width>290</width>
 					<font>Medium</font>
@@ -40,7 +40,7 @@
 			<focusedlayout width="310" height="60">
 
 				<control type="label">
-					<posx>0</posx>
+					<left>0</left>
 					<height>60</height>
 					<width>300</width>
 					<font>Home</font>
@@ -140,8 +140,8 @@
 
 		<control type="rss">
 			<description>RSS Feed</description>
-			<posx>0</posx>
-			<posy>1035</posy>
+			<left>0</left>
+			<top>1035</top>
 			<width>1920</width>
 			<height>21</height>
 			<font>Small</font>

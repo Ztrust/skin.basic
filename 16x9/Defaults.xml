@@ -29,8 +29,8 @@
 	</default>
 
 	<default type="image">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width>-</width>
 		<height>-</height>
 		<align>center</align>
@@ -154,8 +154,8 @@
 	</default>
 
 	<default type="progress">
-		<posx>345</posx>
-		<posy>488</posy>
+		<left>345</left>
+		<top>488</top>
 		<texturebg border="6">other_textures/OSD/ProgressBack.png</texturebg>
 		<lefttexture>-</lefttexture>
 		<midtexture border="6">other_textures/OSD/ProgressMid.png</midtexture>
