@@ -32,6 +32,28 @@
 				<onup>-</onup>
 				<ondown>2</ondown>
 			</control>
+            
+            <!-- Needs to fix -->
+<!--             <control type="button" id="5"> 
+				<description>Choose auto login user</description> 
+				<left>10</left>
+				<top>600</top>
+				<width>250</width> 
+				<height>72</height> 
+				<textoffsety>8</textoffsety> 
+				<label>31960</label> 
+				<font>font24_title</font> 
+				<align>right</align> 
+				<aligny>top</aligny> 
+				<texturenofocus border="5">MenuItemNF.png</texturenofocus> 
+				<texturefocus border="5">MenuItemFO.png</texturefocus> 
+				<onleft>2</onleft> 
+				<onright>2</onright> 
+				<onup>4</onup> 
+				<ondown>4</ondown> 
+				<visible>!System.HasLoginScreen</visible>
+				<enable>!Window.IsVisible(ProfileSettings) + !System.HasLoginScreen</enable> 
+			</control> -->
 
 			<control type="list" id="2">
 				<left>15</left>
@@ -92,6 +114,7 @@
 
 			</control>
 
+            
 		</control>
 
 	</controls>
