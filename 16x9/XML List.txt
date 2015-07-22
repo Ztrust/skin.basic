@@ -1,6 +1,11 @@
 ---Added----------
 DialogMediaFilter.xml
 
+---Removed-----
+DialogMusicScan.xml 
+DialogVideoScan.xml 
+---Removed-----
+
 
 
 
