@@ -136,9 +136,7 @@ msgctxt "#31031
 msgid "Karaoke Song Selector"
 msgstr ""
 
-msgctxt "#31032"
-msgid "Visualization Presets"
-msgstr ""
+#. Empty strings 31032
 
 msgctxt "#31033"
 msgid "Debug"
@@ -205,9 +203,14 @@ msgctxt "#31047"
 msgid "Actions"
 msgstr ""
 
+msgctxt "#31048"
+msgid "SEEKING"
+msgstr ""
 
 
-#. Empty strings 31048 - 31389
+
+
+#. Empty strings 31049 - 31389
 
 
 #. Empty

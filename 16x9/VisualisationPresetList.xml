@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Foundation -->
 <window id="122">
-	<defaultcontrol always="true">2</defaultcontrol>
+	<defaultcontrol always="true">5</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
 
 	<controls>
@@ -18,7 +18,7 @@
 				<texture border="22">other_textures/ContentPanel.png</texture>
 			</control>
 
-			<control type="label">
+			<control type="label" id="2">
 				<description>Header Label</description>
 				<left>15</left>
 				<width>840</width>
@@ -28,7 +28,7 @@
 				<align>center</align>
 			</control>
 
-			<control type="list" id="2">
+			<control type="list" id="5">
 				<description>Preset List</description>
 				<left>15</left>
 				<top>87</top>
@@ -36,8 +36,8 @@
 				<height>552</height>
 				<onleft>-</onleft>
 				<onright>-</onright>
-				<onup>2</onup>
-				<ondown>2</ondown>
+				<onup>5</onup>
+				<ondown>5</ondown>
 
 				<itemlayout height="69">
 
