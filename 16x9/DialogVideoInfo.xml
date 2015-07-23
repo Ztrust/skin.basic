@@ -292,7 +292,7 @@
 					<control type="label">
 						<left>30</left>
 						<width>810</width>
-						<info>ListItem.Label</info>
+						<label>$INFO[ListItem.Label]$INFO[ListItem.Label2, $LOCALIZE[20347] ,]</label>
 					</control>
 
 				</itemlayout>
@@ -309,7 +309,7 @@
 					<control type="label">
 						<left>30</left>
 						<width>810</width>
-						<info>ListItem.Label</info>
+						<label>$INFO[ListItem.Label]$INFO[ListItem.Label2, $LOCALIZE[20347] ,]</label>
 					</control>
 
 				</focusedlayout>

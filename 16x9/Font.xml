@@ -3,12 +3,28 @@
 <fonts>
 
     <fontset id="default" unicode="true">
-
-        <font>
-            <name>Home</name>
+    
+    
+            <font>
+            <name>Medium</name>
             <filename>Comfortaa-Bold.ttf</filename>
-            <size>38</size>
-        </font>    
+            <size>28</size>
+        </font>
+
+
+		<font>
+			<name>Home</name>
+			<filename>Comfortaa-Light.ttf</filename>
+			<style> capitalize </style>
+			<size>42</size>
+		</font>
+
+		<font>
+			<name>Menu</name>
+			<filename>Comfortaa-Light.ttf</filename>
+			<size>28</size>
+			<style>capitalize</style>
+		</font>   
 
         <font>
             <name>Large</name>
@@ -17,7 +33,7 @@
         </font>
 
         <font>
-            <name>Medium</name>
+            <name>Medium1</name>
             <filename>Comfortaa-Light.ttf</filename>
             <size>38</size>
         </font>  

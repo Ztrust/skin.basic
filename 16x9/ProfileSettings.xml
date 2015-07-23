@@ -33,6 +33,20 @@
 			<textcolor>selected</textcolor>
 			<shadowcolor>black</shadowcolor>
 		</control>
+        
+<!--          <control type="label" id="14">
+			<description>Subheader label</description>
+			<left>40</left>
+			<top>20</top>
+			<width>620</width>
+			<height>30</height>
+			<font>font13_title</font>
+			<label>-</label>
+			<align>center</align>
+			<aligny>center</aligny>
+			<textcolor>selected</textcolor>
+			<shadowcolor>black</shadowcolor>
+		</control> -->
             
 			<control type="label" id="102">
 				<description>Profile Name</description>

@@ -6,4 +6,7 @@
 	<color name="Blue">FF0000FF</color>
 	<color name="Green">FF00FF00</color>
 	<color name="FanartDiffuse">66FFFFFF</color>
+    <color name="Grey">FF5b5a5a</color>    
+	<color name="Header">FF554c4c</color>
+	<color name="Header1">FF6d6d6d</color>
 </colors>

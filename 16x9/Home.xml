@@ -6,12 +6,12 @@
 
 	<controls>
 
-		<include>GlobalBackground</include>
+		<include>BackgroundBuild</include>
 
 		<control type="wraplist" id="9000">
 			<description>Home Wraplist</description>
 			<left>205</left>
-			<top>170</top>
+			<top>165</top>
 			<width>1510</width>
 			<height>60</height>
 			<onup>9000</onup>
@@ -29,9 +29,10 @@
 					<left>0</left>
 					<height>60</height>
 					<width>290</width>
-					<font>Medium</font>
+					<font>Menu</font>
                     <align>center</align>
 					<aligny>center</aligny>
+                    <textcolor>Header</textcolor>
                     <label>$INFO[ListItem.Label]</label>
 				</control>
 
@@ -46,6 +47,8 @@
 					<font>Home</font>
                     <align>center</align>
 					<aligny>center</aligny>
+                    <textcolor>Black</textcolor>
+                   <!-- <shadowcolor>Grey</shadowcolor> -->
                     <label>$INFO[ListItem.Label]</label>
 				</control>
 
@@ -56,7 +59,7 @@
 				<item id="1">
 					<description>Programs</description>
 					<label>31002</label>
-					<onclick>ActivateWindow(Programs,Addons)</onclick>
+					<onclick>ActivateWindow(Programs,Addons,return)</onclick>
 				</item>
 
 				<item id="2">
@@ -68,7 +71,7 @@
 				<item id="3">
 					<description>Music</description>
 					<label>31004</label>
-					<onclick>ActivateWindow(Music)</onclick>
+					<onclick>ActivateWindow(Music,return)</onclick>
 				</item>
 
 				<item id="4">
@@ -80,14 +83,14 @@
 				<item id="5">
 					<description>Movies</description>
 					<label>31006</label>
-					<onclick>ActivateWindow(Video,movietitles)</onclick>
+					<onclick>ActivateWindow(Video,movietitles,return)</onclick>
 					<visible>Library.HasContent(Movies)</visible>
 				</item>
 
 				<item id="6">
 					<description>TV Shows</description>
 					<label>31007</label>
-					<onclick>ActivateWindow(Video,tvshowtitles)</onclick>
+					<onclick>ActivateWindow(Video,tvshowtitles,return)</onclick>
 					<visible>Library.HasContent(TVShows)</visible>
 				</item>
 

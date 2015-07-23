@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Kumari-->
+
+<includes>
+
+    <!-- variable seek -->
+    
+	<variable name="SeekLabel">
+		<value condition="!IsEmpty(Player.SeekStepSize) + ![player.forwarding | player.rewinding]">$LOCALIZE[31048][COLOR=grey] $INFO[Player.SeekStepSize][/COLOR]</value>		<value condition="Player.DisplayAfterSeek + ![player.forwarding | player.rewinding]">$LOCALIZE[31046][COLOR=grey] $INFO[Player.SeekOffset][/COLOR]</value>
+		<value condition="!Player.DisplayAfterSeek + Player.Seeking">$LOCALIZE[31048]</value>
+	</variable>
+
+</includes>

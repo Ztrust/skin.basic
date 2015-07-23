@@ -8,9 +8,9 @@
 		<align>left</align>
 		<aligny>center</aligny>
 		<font>Small</font>
-		<textcolor>White</textcolor>
-		<focusedcolor>White</focusedcolor>
-		<selectedcolor>White</selectedcolor>
+		<textcolor>Header</textcolor>
+		<focusedcolor>Black</focusedcolor>
+		<selectedcolor>Red</selectedcolor>
 		<disabledcolor>Red</disabledcolor>
 	</default>
 
@@ -193,8 +193,8 @@
 	<default type="textbox">
 		<label>-</label>
 		<font>Small</font>
-		<textcolor>white</textcolor>
-		<shadowcolor>black</shadowcolor>
+		<textcolor>Black</textcolor>
+		<!-- <shadowcolor>Grey</shadowcolor> -->
 		<pagecontrol>61</pagecontrol>
 		<!-- <autoscroll delay="6000" time="3000" repeat="10000"/> -->
 	</default>

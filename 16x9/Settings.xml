@@ -6,7 +6,7 @@
 
 	<controls>
 
-		<include>GlobalBackground</include>
+		<include>BackgroundBuild</include>
 
 		<control type="list" id="9000">
 			<left>50</left>
@@ -45,6 +45,7 @@
 				<control type="label">
 					<width>300</width>
 					<font>Home</font>
+                    <textcolor>Black</textcolor>
 					<label>$INFO[ListItem.Label]</label>
 				</control>
 
@@ -153,8 +154,8 @@
 				<font>Text</font>
 				<label>$INFO[Container(9000).ListItem.Label2]</label>
 				<align>left</align>
-				<textcolor>white</textcolor>
-				<shadowcolor>Grey</shadowcolor>
+<!-- 				<textcolor>white</textcolor>
+				<shadowcolor>Grey</shadowcolor> -->
 			</control>
 
 	</controls>

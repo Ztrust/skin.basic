@@ -12,7 +12,7 @@
 			<include>HiddenButton</include>
 		</control>
 
-		<include>GlobalBackground</include>
+		<include>BackgroundBuild</include>
 
 		<include>View_50_List</include>
     <control type="group">

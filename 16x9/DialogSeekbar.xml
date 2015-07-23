@@ -43,6 +43,15 @@
 				<label>112</label>
 				<visible>player.paused</visible>
 			</control>
+            
+            <control type="label">
+				<description>Seeking Label</description>
+				<left>15</left>
+				<top>84</top>
+				<width>1680</width>
+				<align>center</align>
+				<label>$VAR[SeekLabel]</label>
+			</control>
 
 			<control type="label">
 				<left>15</left>
@@ -158,6 +167,7 @@
 				<width>1680</width>
 				<visible>Player.Seeking</visible>
 			</control>
+            
 
 		</control>
 
