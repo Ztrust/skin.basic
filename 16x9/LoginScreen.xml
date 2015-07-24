@@ -6,7 +6,7 @@
 
 	<controls>
 
-		<include>GlobalBackground</include>
+		<include>BackgroundBuild</include>
 
 		<control type="wraplist" id="52">
 			<description>Login Wraplist</description>

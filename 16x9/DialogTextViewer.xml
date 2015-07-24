@@ -5,7 +5,7 @@
 
 	<controls>
 
-		<include>GlobalOverlay</include>
+		<include>BackgroundBuild</include>
 
 		<control type="group">
 			<left>240</left>

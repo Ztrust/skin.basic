@@ -178,14 +178,15 @@
 		<textureslidernib border="2">other_textures/OSD/SliderNibNF.png</textureslidernib>
 		<textureslidernibfocus border="2">other_textures/OSD/SliderNibFO.png</textureslidernibfocus>
 	</default>
-
+<!--  border="0,14,0,14" -->
 	<default type="scrollbar">
-		<width>38</width>
-		<texturesliderbackground border="0,14,0,14">other_textures/ScrollBarV.png</texturesliderbackground>
-		<texturesliderbar border="0,14,0,14">other_textures/ScrollBarV_bar_focus.png</texturesliderbar>
-		<texturesliderbarfocus border="0,14,0,14">other_textures/ScrollBarV_bar_focus.png</texturesliderbarfocus>
-		<textureslidernib>other_textures/ScrollBarNib.png</textureslidernib>
-		<textureslidernibfocus>other_textures/ScrollBarNib.png</textureslidernibfocus>
+		<width>20</width>
+		<texturesliderbackground>other_textures/ScrollBarV.png</texturesliderbackground>
+		<texturesliderbar>other_textures/ScrollBarV_bar.png</texturesliderbar>
+		<texturesliderbarfocus>other_textures/ScrollBarV_bar_focus.png</texturesliderbarfocus>
+        <!-- <texturesliderbarfocus>other_textures/ScrollBarV_bar_focus.png</texturesliderbarfocus> -->
+<!-- 		<textureslidernib>other_textures/ScrollBarNib.png</textureslidernib>
+		<textureslidernibfocus>other_textures/ScrollBarNib.png</textureslidernibfocus> -->
 		<showonepage>true</showonepage>
 		<orientation>vertical</orientation>
 	</default>

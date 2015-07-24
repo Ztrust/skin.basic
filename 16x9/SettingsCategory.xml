@@ -6,7 +6,7 @@
 
     <controls>
 
-        <include>GlobalBackground</include>
+        <include>BackgroundBuild</include>
 
         <control type="grouplist" id="3">
             <description>Button Area</description>

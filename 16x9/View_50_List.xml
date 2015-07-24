@@ -7,62 +7,75 @@
 		<description>List View (id=50)</description>
 
 		<control type="list" id="50">
-			<left>330</left>
-			<top>57</top>
-			<width>960</width>
-			<height>966</height>
+        <viewtype label="535">list</viewtype>
+        <pagecontrol>60</pagecontrol>
+			<left>210</left>
+			<top>200</top>
+			<width>1500</width>
+			<height>660</height>
 			<onleft>9000</onleft>
 			<onright>60</onright>
 			<onup>50</onup>
 			<ondown>50</ondown>
-			<pagecontrol>60</pagecontrol>
-			<viewtype label="535">list</viewtype>
-			<scrolltime>200</scrolltime>
+            <movement>5</movement>
+		    <scrolltime>200</scrolltime>
 			<animation type="Conditional" condition="ControlGroup(9000).HasFocus()">
 				<effect type="fade" start="100" end="50" time="200" />
 				<effect type="zoom" center="1290,540" start="100" end="90" time="200" />
 			</animation>
 
-			<itemlayout width="960" height="69">
-
-				<control type="image">
-					<width>960</width>
-					<height>66</height>
-					<texture border="2">other_textures/ButtonNF.png</texture>
-				</control>
+			<itemlayout width="1500" height="60">
 
 				<control type="label">
 					<left>30</left>
-					<width>900</width>
+					<width>750</width>
 					<font>Small</font>
                     <textcolor>Black</textcolor>
-					<label>$INFO[ListItem.Label]$INFO[ListItem.Label2, - ]</label>
+					<label>[B]$INFO[ListItem.Label][/B]</label>
+				</control>
+                
+               <control type="label">
+					<left>750</left>
+					<width>720</width>
+					<font>Small</font>
+                    <align>right</align>
+                    <textcolor>Black</textcolor>
+					<label>[B]$INFO[ListItem.Label2][/B]</label>
 				</control>
 
 			</itemlayout>
 
-			<focusedlayout width="960" height="69">
+			<focusedlayout width="1500" height="60">
 
 				<control type="image">
-					<width>960</width>
-					<height>66</height>
-					<texture border="5">other_textures/ButtonFo.png</texture>
+					<width>1500</width>
+					<height>60</height>
+					<texture border="5">other_textures/ButtonNF2.png</texture>
 					<animation effect="fade" start="100" end="50" condition="!Control.HasFocus(50)">Conditional</animation>
 				</control>
 
 				<control type="label">
 					<left>30</left>
-					<width>900</width>
-					<font>Medium</font>
-                    <textcolor>Black</textcolor>
-					<label>$INFO[ListItem.Label]$INFO[ListItem.Label2, - ]</label>
+					<width>750</width>
+					<font>Small</font>
+                    <textcolor>White</textcolor>
+					<label>[B]$INFO[ListItem.Label][/B]</label>
+				</control>
+                
+               <control type="label">
+					<left>750</left>
+					<width>720</width>
+					<font>Small</font>
+                    <align>right</align>
+                    <textcolor>White</textcolor>
+					<label>[B]$INFO[ListItem.Label2][/B]</label>
 				</control>
 
 			</focusedlayout>
 
 		</control>
 
-		<control type="image">
+<!-- 		<control type="image">
 			<left>1380</left>
 			<top>210</top>
 			<width>480</width>
@@ -73,16 +86,17 @@
 			<bordertexture border="5">other_textures/ButtonFo.png</bordertexture>
 			<bordersize>12</bordersize>
 			<visible>!IsEmpty(ListItem.Icon)</visible>
-		</control>
-
+		</control> -->
+                       <!-- allowhiddenfocus="true"| Container.Scrolling -->
 		<control type="scrollbar" id="60">
-			<left>1317</left>
-			<top>51</top>
-			<height>978</height>
+			<left>1720</left>
+			<top>240</top>
+			<height>590</height>
 			<onleft>50</onleft>
 			<onright>9000</onright>
-			<visible allowhiddenfocus="true">Control.HasFocus(60) | Container.Scrolling</visible>
-			<animation effect="fade" start="0" end="100" time="400" condition="Control.HasFocus(60) | Container.Scrolling">Conditional</animation>
+            <visible>Control.IsVisible(50)</visible>
+			<!-- <visible allowhiddenfocus="true">Control.HasFocus(60)</visible> -->
+			<!-- <animation effect="fade" start="0" end="100" time="400" condition="Control.HasFocus(60) | Container.Scrolling">Conditional</animation> -->
 		</control>
 
 	</include>

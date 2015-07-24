@@ -6,7 +6,7 @@
 
 	<controls>
 
-		<include>GlobalBackground</include>
+		<include>BackgroundBuild</include>
 
 		<control type="label">
 			<description>Header Label</description>
