@@ -1,161 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Basic/Foundation -->
+<!-- Foundation -->
 <window id="4">
 	<defaultcontrol always="true">9000</defaultcontrol>
-	<allowoverlay>yes</allowoverlay>
+	<allowoverlay>no</allowoverlay>
 
 	<controls>
 
 		<include>BackgroundBuild</include>
+		<include>Clock</include>
+		<!-- <include>GlobalBackground</include> -->
 
-		<control type="list" id="9000">
-			<left>50</left>
-			<top>240</top>
-			<width>360</width>
-			<height>600</height>
-			<onup>9000</onup>
-			<ondown>9000</ondown>
-			<viewtype label="List">list</viewtype>
-			<scrolltime tween="sine" easing="out">200</scrolltime>
-            
-			<itemlayout width="360" height="60">
+		<!--Turn into Variable For all Headers-->
 
-<!-- 				<control type="image">
-					<width>360</width>
-					<height>60</height>
-					<texture border="2">other_textures/ButtonNF.png</texture>
-				</control> -->
+		<control type="label">
+			<description>Settings Header</description>
+			<left>100</left>
+			<top>100</top>
+			<height>60</height>
+			<width>500</width>		
+			<textcolor>Header</textcolor>				
+			<font>Header2</font>
+			<label>settings</label>
+		</control>		
+
+		<!--Turn into Variable For all Headers-->
+
+		<control type="wraplist" id="9000">
+			<description>Home Wraplist</description>
+			<left>140</left>
+			<top>200</top>
+			<width>1120</width>
+			<height>60</height>
+			<onup>300</onup>
+			<ondown>300</ondown>
+			<onleft>300</onleft>
+			<onright>300</onright>
+			<movement>1</movement>
+			<orientation>horizontal</orientation>
+			<focusposition>2</focusposition>
+			<scrolltime tween="sine" easing="out">200</scrolltime>			
+
+			<itemlayout width="220" height="600">
 
 				<control type="label">
-					<width>300</width>
-					<font>Medium</font>
+					<left>0</left>
+					<height>60</height>
+					<width>210</width>		
+					<aligny>center</aligny>
+                    <align>center</align>
+					<textcolor>Grey</textcolor>				
+					<font>Menu</font>
 					<label>$INFO[ListItem.Label]</label>
-				</control>
+					</control>
 
 			</itemlayout>
 
-			<focusedlayout width="360" height="60">
-
-<!-- 				<control type="image">
-					<width>360</width>
-					<height>60</height>
-					<texture border="5">other_textures/ButtonFo.png</texture>
-				</control> -->
+			<focusedlayout width="230" height="60">
 
 				<control type="label">
-					<width>300</width>
-					<font>Home</font>
-                    <textcolor>Black</textcolor>
+					<left>0</left>
+					<width>220</width>
+					<height>60</height>
+                    <aligny>center</aligny>
+                    <align>center</align>
 					<label>$INFO[ListItem.Label]</label>
-				</control>
+					<font>Home</font>
+					<textcolor>Themecolor</textcolor>
+					</control>
 
 			</focusedlayout>
 
 			<content>
 				<item id="1">
-					<description>Appearance</description>
 					<label>480</label>
-                    <label2>31400</label2>
-					<onclick>activatewindow(AppearanceSettings)</onclick>
+					<label2>31500</label2>
+					<onclick>ActivateWindow(AppearanceSettings)</onclick>
 				</item>
-                
+
 				<item id="2">
-					<description>Videos</description>
 					<label>3</label>
-                    <label2>31401</label2>
-					<onclick>activatewindow(VideosSettings)</onclick>
+					<label2>31501</label2>
+					<onclick>ActivateWindow(VideosSettings)</onclick>
 				</item>
-                
-<!--                 <item id="3">
-                    <label>31502</label>
-                    <label2>31409</label2>
-                    <onclick>ActivateWindow(PVRSettings)</onclick>
-                    <icon>special://skin/backgrounds/tv.jpg</icon> 
-                </item>  -->    
-                
-				<item id="4">
+
+				<item id="3">
 					<description>Music</description>
 					<label>2</label>
-                    <label2>31402</label2>
+					<label2>31502</label2>
 					<onclick>activatewindow(MusicSettings)</onclick>
 				</item>
-                
-                <item id="5">
+
+				<item id="4">
+					<description>Addons</description>
+					<label>24001</label>
+					<label2>31508</label2>
+					<onclick>activatewindow(AddonBrowser)</onclick>
+				</item>
+
+				<item id="5">
 					<description>Pictures</description>
 					<label>1</label>
-                    <label2>31403</label2>
+					<label2>31503</label2>
 					<onclick>activatewindow(PicturesSettings)</onclick>
 				</item>
 
-                <item id="6">
+				<item id="6">
 					<description>Weather</description>
 					<label>8</label>
-                    <label2>31404</label2>
+					<label2>31504</label2>
 					<onclick>activatewindow(WeatherSettings)</onclick>
 				</item>
-                
+
 				<item id="7">
-					<description>Addons</description>
-					<label>24001</label>
-                    <label2>31408</label2>
-					<onclick>activatewindow(AddonBrowser)</onclick>
-				</item>                            
-                
-				<item id="8">
-					<description>Service/Network</description>
-                    <label>14036</label>
-                    <label2>31410</label2>
-                    <onclick>ActivateWindow(ServiceSettings)</onclick>
+					<description>Services/Network</description>
+					<label>14036</label>
+					<label2>31510</label2>
+					<onclick>ActivateWindow(ServiceSettings)</onclick>
 				</item>
-                
-				<item id="9">
+
+				<item id="8">
 					<description>System</description>
 					<label>13000</label>
-                    <label2>31406</label2>
+					<label2>31506</label2>
 					<onclick>activatewindow(SystemSettings)</onclick>
 				</item>
-                
-				<item id="10">
+
+				<!-- 				<item id="9">
 					<description>Profiles</description>
 					<label>13200</label>
-                    <!-- <label2>31411</label2> -->
 					<onclick>activatewindow(Profiles)</onclick>
 				</item>
-                
-				<item id="11">
+				
+				<item id="10">
 					<description>System Info</description>
 					<label>130</label>
-                    <!-- <label2>31412</label2> -->
 					<onclick>activatewindow(7)</onclick>
-				</item>
-
+				</item> -->
 			</content>
 		</control>
-
-<!-- Settings Header -->        
-        <control type="label">
-			<description>Settings Header</description>
-			<left>0</left>
-			<top>50</top>
-			<height>60</height>
-			<width>1920</width>		
-			<font>Home</font>
-            <align>center</align>
-			<label>5</label>
-		</control>	
-        	
-            <!-- Category Settings description from label 2 - customs strings entry -->
+            
+            
+            <!--create separate title labels for offset -->			
+			
             <control type="textbox">
 				<description>Appearance Description</description>
-				<left>1000</left>
-				<top>480</top>
-				<width>740</width>
-				<height>400</height>
-				<font>Text</font>
+				<left>850</left>
+				<top>750</top>
+				<width>900</width>
+				<height>300</height>
+				<font>Text3</font>
 				<label>$INFO[Container(9000).ListItem.Label2]</label>
 				<align>left</align>
-<!-- 				<textcolor>white</textcolor>
-				<shadowcolor>Grey</shadowcolor> -->
+				<textcolor>Themecolor</textcolor>
+				<!-- <shadowcolor>Grey</shadowcolor> -->
 			</control>
 
 	</controls>

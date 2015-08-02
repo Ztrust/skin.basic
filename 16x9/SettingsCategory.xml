@@ -5,29 +5,56 @@
     <allowoverlay>yes</allowoverlay>
 
     <controls>
+        <!-- Needs header label -->
+        <!-- Need to ad settings level button + decription box -->
 
-        <include>BackgroundBuild</include>
+		<include>BackgroundBuild</include>
+        <include>Clock</include>
+        <!-- <include>GlobalBackground</include> -->
+
+        <control type="label" id="2">
+            <description>Settings Header/Default Header</description>
+            <left>100</left>
+            <top>100</top>
+            <height>60</height>
+            <width>500</width>		
+            <textcolor>Header</textcolor>				
+            <font>Header2</font>
+            <label>-</label>
+        </control> 
+
+        <!--         <control type="label" id="14">
+            <description>Settings Header/Default Header</description>
+            <left>200</left>
+            <top>100</top>
+            <height>60</height>
+            <width>500</width>		
+            <textcolor>FF6d6d6d</textcolor>				
+            <font>Header2</font>
+            <label>-</label>
+        </control>  -->
 
         <control type="grouplist" id="3">
             <description>Button Area</description>
-            <left>15</left>
-            <top>210</top>
-            <width>450</width>
-            <height>720</height>
-            <itemgap>3</itemgap>
-            <onleft>5</onleft>
-            <onright>5</onright>
+            <left>140</left>
+            <top>200</top>
+            <width>1100</width>
+            <height>60</height>
+            <align>left</align>
+          <itemgap>-50</itemgap>
+            <onleft>3</onleft>
+            <onright>3</onright>
             <onup>3</onup>
-            <ondown>20</ondown>
-            <orientation>vertical</orientation>
+            <ondown>5</ondown>
+            <orientation>horizontal</orientation>
         </control>
 
         <control type="grouplist" id="5">
             <description>Control Area</description>
-            <left>510</left>
-            <top>210</top>
-            <width>1230</width>
-            <height>580</height>
+            <left>200</left>
+            <top>350</top>
+            <width>1400</width>
+            <height>425</height>
             <itemgap>3</itemgap>
             <onleft>3</onleft>
             <onright>3</onright>
@@ -36,91 +63,53 @@
             <orientation>vertical</orientation>
         </control>
 
+
+
         <control type="button" id="7">
             <description>Default Button</description>
-            <align>left</align>
         </control>
 
         <control type="radiobutton" id="8">
             <description>Default Radio Button</description>
-            <radioposx>1155</radioposx>
-            <align>left</align>
+           <radioposx>1325</radioposx>
         </control>
 
         <control type="spincontrolex" id="9">
             <description>Default Spin Control</description>
-            <align>left</align>
         </control>
-  
-  <control type="sliderex" id="13">
-			<description>Default Slider</description>
-			<left>0</left>
-			<top>0</top>
-			<aligny>center</aligny>
-		</control>
-
+        
         <control type="button" id="10">
             <description>Default Category Button</description>
+            <width>320</width>	
+            <texturefocus>-</texturefocus>
+            <focusedcolor>Themecolor</focusedcolor>
+            <font>Menu2</font>
             <align>left</align>
-        </control>
-        <control type="button" id="20">
-            <description>Setting level button</description>
-            <textwidth>235</textwidth>
-            <top>1000</top>
-            <left>0</left>
-            <label>10037</label>
-            <onup>3</onup>
-            <ondown>3</ondown>
-            <onclick>SettingsLevelChange</onclick>
-        </control>
-
-           <!-- Find out what it does -->
-        <!-- <control type="button" id="21">
-            <description>Reset button</description>
-            <top>1000</top>
-            <left>600</left>
-            <label>10035</label>
-            <onclick>SettingsReset</onclick>
-        </control> -->
-
-        <!-- Description and headers -->
-
-        <!-- Settings Header -->        
-        <control type="label" id="2">
-            <description>Settings Header</description>
-            <left>0</left>
-            <top>50</top>
-            <height>60</height>
-            <width>1920</width>		
-            <font>Home</font>
-            <align>center</align>
-            <label>-</label>
+            <aligny>center</aligny>
         </control>	
+        
+        
+         <control type="textbox"  id="6">
+				<description>description area</description>>
+				<description>Appearance Description</description>
+				<left>230</left>
+				<top>850</top>
+				<width>1100</width>
+				<height>300</height>
+				<font>Text3</font>
+				<!-- <label>$INFO[Container(9000).ListItem.Label2]</label> -->
+				<align>left</align>
+				<textcolor>Themecolor</textcolor>
+				<!-- <shadowcolor>Grey</shadowcolor> -->
+			</control>
 
-        <!-- SubHeader Change to id="14" -->        
-        <control type="label">
-            <description>Settings Header</description>
-            <left>0</left>
-            <top>100</top>
-            <height>60</height>
-            <width>1920</width>		
-            <font>Text</font>
-            <align>center</align>
-            <label>5</label>
-        </control>	  
+        <!--         	<control type="button" id="20">
+			<description>Setting Level Change</description>
+			<align>left</align>
+		</control>	 -->
 
-        <!-- Category Settings description -->
-        <control type="textbox" id="6">
-            <description>Category Description</description>
-            <left>530</left>
-            <top>860</top>
-            <width>1180</width>
-            <height>200</height>
-            <font>Text</font>
-            <align>left</align>
-            <textcolor>white</textcolor>
-            <shadowcolor>Grey</shadowcolor>
-        </control>      
+
+
 
     </controls>
 

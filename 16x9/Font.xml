@@ -1,46 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Basic/Foundation -->
+<!-- Foundation -->
 <fonts>
+	<!-- ============= -->
+	<!--    Default    -->
+	<!-- ============= -->
 
-    <fontset id="default" unicode="true">
+	<fontset id="Default" idloc="31390">
 
+
+		<font>
+			<name>Home</name>
+			<filename>Comfortaa-Light.ttf</filename>
+			<style> capitalize </style>
+			<size>34</size>
+		</font>
+
+		<font>
+			<name>Menu</name>
+			<filename>Comfortaa-Light.ttf</filename>
+			<size>28</size>
+			<style>capitalize</style>
+		</font>
+        
         <font>
-            <name>Home</name>
-            <filename>Comfortaa-Bold.ttf</filename>
-            <size>38</size>
-        </font>    
+			<name>Menu2</name>
+			<filename>Comfortaa-Light.ttf</filename>
+			<size>26</size>
+			<style>capitalize</style>
+		</font>
 
-        <font>
-            <name>Large</name>
-            <filename>Comfortaa-Bold.ttf</filename>
-            <size>48</size>
-        </font>
 
-        <font>
-            <name>Medium</name>
-            <filename>Comfortaa-Light.ttf</filename>
-            <size>38</size>
-        </font>  
+		<font>
+			<name>Header</name>
+			<filename>Roboto-BlackV2.ttf</filename>
+			<style>capitalize</style>
+			<size>48</size>
+		</font>
+		<font>
+			<name>Header2</name>
+			<filename>Comfortaa-Bold.ttf</filename>
+			<style>capitalize</style>
+			<size>48</size>
+		</font>
 
-        <font>
-            <name>Small</name>
-            <filename>Comfortaa-Light.ttf</filename>
-            <size>28</size>
-        </font>   
-        <font>
-            <name>Text</name>
-            <filename>Comfortaa-Light.ttf</filename>
-            <size>24</size>
-        </font>   
+		<font>
+			<name>Clock</name>
+			<filename>Roboto-BlackV2.ttf</filename>
+			<size>78</size>
+		</font>
+		
+		<font>
+			<name>Text</name>
+			<filename>Comfortaa-Bold.ttf</filename>
+			<style>capitalize</style>
+			<size>22</size>
+		</font>		
+		
+		<font>
+			<name>Text2</name>
+			<filename>Roboto-RegularV2.ttf</filename>
+			<size>22</size>
+		</font>
+		
+		<font>
+			<name>Text3</name>
+			<filename>Comfortaa-Bold.ttf</filename>
+			<size>22</size>
+		</font>
+		
+		<font>
+			<name>Text4</name>
+			<filename>Roboto-MediumV2.ttf</filename>
+			<size>22</size>
+		</font>
 
-        <!-- Required for system -->
+                <font>
+			<name>Small</name>
+			<filename>Comfortaa-Light.ttf</filename>
+			<size>26</size>
+			<style>capitalize</style>
+		</font>
+		
+		
 
-        <font>
-            <name>font13</name>
-            <filename>Arial.ttf</filename>
-            <size>30</size>
-        </font>
+		<!-- ============= -->
+		<!--  Not In Use   -->
+		<!-- ============= -->
 
-    </fontset>
 
+		<font>
+			<name>Large</name>
+			<filename>Arial.ttf</filename>
+			<size>48</size>
+		</font>
+
+		<font>
+			<name>Large1</name>
+			<filename>RobotoCondensed-Regular.ttf</filename>
+			<size>48</size>
+		</font>
+
+		<font>
+			<name>Large2</name>
+			<filename>Roboto-Regular.ttf</filename>
+			<size>48</size>
+		</font>
+
+		<font>
+			<name>Large3</name>
+			<filename>Roboto-RegularV2.ttf</filename>
+			<size>48</size>
+		</font>
+
+		<font>
+			<name>Large4</name>
+			<filename>OpenSans-Regular.ttf</filename>
+			<size>48</size>
+		</font>
+
+		<font>
+			<name>Medium</name>
+			<filename>Arial.ttf</filename>
+			<size>39</size>
+		</font>
+
+		<font>
+			<name>Small</name>
+			<filename>Arial.ttf</filename>
+			<size>30</size>
+		</font>
+
+
+
+		<!-- Required for system -->
+		<font>
+			<name>font13</name>
+			<filename>Arial.ttf</filename>
+			<size>30</size>
+		</font>
+
+	</fontset>
 </fonts>

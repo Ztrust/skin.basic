@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <colors>
+
+	<!-- ============= -->
+	<!--   My Colors   -->
+	<!-- ============= -->
+    
+	<color name="Header">FF6d6d6d</color>
+    <color name="Grey">FF5b5a5a</color>
+	<color name="Themecolor">FF000000</color>
+	<color name="White">FFFFFFFF</color>
+   <!--  <color name="Grey2"></color> -->
+   
+	<!-- ============= -->
+	<!--   My Colors   -->
+	<!-- ============= -->	
+
 	<color name="Black">FF000000</color>
 	<color name="White">FFFFFFFF</color>
 	<color name="Red">FFFF0000</color>
 	<color name="Blue">FF0000FF</color>
 	<color name="Green">FF00FF00</color>
-	<color name="FanartDiffuse">66FFFFFF</color>
-    <color name="Grey">FF5b5a5a</color>    
-	<color name="Header">FF554c4c</color>
-	<color name="Header1">FF6d6d6d</color>
+	<color name="FanartDiffuse"> 26000000</color>
+    <color name="FanartDiffuse2">f1f1f1F1</color>
 </colors>

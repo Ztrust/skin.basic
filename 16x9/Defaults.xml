@@ -41,13 +41,13 @@
 	<default type="button">
 		<width>450</width>
 		<height>60</height>
-		<align>center</align>
+		<align>left</align>
 		<aligny>center</aligny>
 		<font>Small</font>
 		<label>-</label>
 		<textoffsetx>30</textoffsetx>
         <invalidcolor>invalid</invalidcolor>
-		<textcolor>White</textcolor>
+		<textcolor>Header</textcolor>
 		<focusedcolor>White</focusedcolor>
 		<disabledcolor>Red</disabledcolor>
 		<texturefocus border="5">other_textures/ButtonFo.png</texturefocus>
@@ -61,14 +61,14 @@
 		<label>-</label>
 		<textoffsetx>30</textoffsetx>
 		<font>Small</font>
-		<textcolor>White</textcolor>
+		<textcolor>Header</textcolor>
 		<focusedcolor>White</focusedcolor>
 		<disabledcolor>Red</disabledcolor>
 		<!-- <texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus> -->
 		<texturefocus border="5">other_textures/ButtonFo.png</texturefocus>
 		<alttexturenofocus border="2">other_textures/ButtonNF.png</alttexturenofocus>
 		<alttexturefocus border="5">other_textures/ButtonFo.png</alttexturefocus>
-		<align>center</align>
+		<align>left</align>
 		<aligny>center</aligny>
 		<pulseonselect>false</pulseonselect>
 	</default>
@@ -76,11 +76,11 @@
 	<default type="radiobutton">
 		<width>450</width>
 		<height>60</height>
-		<align>center</align>
+		<align>left</align>
 		<aligny>center</aligny>
 		<font>Small</font>
 		<label>-</label>
-		<textcolor>White</textcolor>
+		<textcolor>Header</textcolor>
 		<focusedcolor>White</focusedcolor>
 		<disabledcolor>Red</disabledcolor>
 		<radiowidth>45</radiowidth>
@@ -111,7 +111,7 @@
 		<texturedown>other_textures/ArrowDownNF.png</texturedown>
 		<textureupfocus>other_textures/ArrowUpFo.png</textureupfocus>
 		<texturedownfocus>other_textures/ArrowDownFo.png</texturedownfocus>
-		<textcolor>White</textcolor>
+		<textcolor>Header</textcolor>
 		<focusedcolor>White</focusedcolor>
 		<disabledcolor>Red</disabledcolor>
 		<textoffsetx>30</textoffsetx>
@@ -152,7 +152,7 @@
 		<textureslidernib border="2">other_textures/OSD/SliderNibNF.png</textureslidernib>
 		<textureslidernibfocus border="2">other_textures/OSD/SliderNibFO.png</textureslidernibfocus>
 		<font>Small</font>
-		<textcolor>White</textcolor>
+		<textcolor>Header</textcolor>
 		<focusedcolor>White</focusedcolor>
 		<disabledcolor>Red</disabledcolor>
 		<textoffsetx>30</textoffsetx>
@@ -194,7 +194,7 @@
 	<default type="textbox">
 		<label>-</label>
 		<font>Small</font>
-		<textcolor>Black</textcolor>
+		<textcolor>Header</textcolor>
 		<!-- <shadowcolor>Grey</shadowcolor> -->
 		<pagecontrol>61</pagecontrol>
 		<!-- <autoscroll delay="6000" time="3000" repeat="10000"/> -->

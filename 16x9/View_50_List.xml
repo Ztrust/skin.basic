@@ -57,18 +57,19 @@
 				<control type="label">
 					<left>30</left>
 					<width>750</width>
-					<font>Small</font>
+					<font>List</font>
                     <textcolor>White</textcolor>
-					<label>[B]$INFO[ListItem.Label][/B]</label>
+                    <shadowcolor>Grey</shadowcolor>
+					<label>$INFO[ListItem.Label]</label>
 				</control>
                 
                <control type="label">
 					<left>750</left>
 					<width>720</width>
-					<font>Small</font>
+					<font>List</font>
                     <align>right</align>
                     <textcolor>White</textcolor>
-					<label>[B]$INFO[ListItem.Label2][/B]</label>
+					<label>$INFO[ListItem.Label2]</label>
 				</control>
 
 			</focusedlayout>
